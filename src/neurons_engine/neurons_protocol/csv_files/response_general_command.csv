@@ -1,0 +1,5 @@
+name,device_id,type,subtype,para_1,para_2,para_3,para_4,para_end
+assign_id,BYTE,0x10,None,BYTE,BYTE,,,
+query_version,BYTE,0x12,None,BYTE,BYTE,SHORT,,
+test_traffic,BYTE,0x14,None,BYTE,BYTE,BYTE,BYTE,BYTE,
+universal_response,BYTE,0x15,None,BYTE,,,,

@@ -1,0 +1,10 @@
+name,type,subtype,para_1,para_2,para_3,para_4,para_5,para_end
+assign_id,0x10,None,BYTE,,,,,
+reset_block,0x11,None,,,,,,
+query_version,0x12,None,,,,,,
+set_baud_rate,0x13,None,BYTE,,,,,
+test_traffic,0x14,None,BYTE,BYTE,BYTE,BYTE,BYTE,
+universal_response,0x15,None,BYTE,,,,
+set_command_response,0x61,0x01,BYTE,,,,,
+set_block_rgb_led,0x61,0x02,byte,byte,byte,,,
+handshake,0x61,0x03,,,,,,

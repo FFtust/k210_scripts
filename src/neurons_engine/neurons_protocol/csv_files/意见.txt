@@ -1,0 +1,8 @@
+1. 布尔类的模块不提供 value API
+2. 设置阈值 提供 python API， 块不一定提供
+3. pin0.is_touched()   pin0.get_touch_value() pin0.set_touch_threshold() 
+    pin0.read_digital()  pin0.write_analog()  
+    pin0.read_analog() pin0.write_digital() 
+    和 microbit 保持一致。
+4. touch_pad_a 这种
+5. button, funny_touch 用布尔
